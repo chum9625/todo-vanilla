@@ -1,3 +1,15 @@
 body {
   font-family: sans-serif;
 }
+
+.input-area {
+  background-color: aqua;
+}
+
+.incomplete-area {
+  background-color: aquamarine;
+}
+
+.complete-area {
+  background-color: coral;
+}
