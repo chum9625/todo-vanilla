@@ -1,4 +1,4 @@
-# vanilla-todo
+# todo-vanilla
 
 - Created with CodeSandbox
-- 簡単な TODO アプリをバニラ JS で作る
+- 簡単な TODO アプリを Vanilla JS で作る

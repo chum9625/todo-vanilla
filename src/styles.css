@@ -1,6 +1,5 @@
 body {
   font-family: sans-serif;
-  /* margin: 0; */
 }
 
 input {
@@ -14,21 +13,12 @@ button {
   border-radius: 16px;
   border: none;
   padding: 4px 16px;
-  margin: 4px;
 }
 
 button:hover {
   background-color: #ff7fff;
   color: #fff;
   cursor: pointer;
-}
-
-li {
-  margin-bottom: -10px;
-}
-
-li .list-row p {
-  margin-right: 8px;
 }
 
 .input-area {
@@ -49,7 +39,7 @@ li .list-row p {
   border-radius: 8px;
 }
 
-.complete-area {
+.coomplete-area {
   background-color: #ffffe0;
   width: 400px;
   min-height: 200px;
@@ -68,5 +58,11 @@ li .list-row p {
 .list-row {
   display: flex;
   align-items: center;
-  padding-bottom: 0px;
+  margin: 0;
+  padding-bottom: 4px;
+}
+
+.list-row p,
+button {
+  margin-right: 8px;
 }
