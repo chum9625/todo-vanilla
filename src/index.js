@@ -36,11 +36,13 @@ const onClickAdd = () => {
     // button生成
     const backButton = document.createElement("button");
     backButton.innerText = "戻す";
+    backButton.addEventListener("click", () => {
+      alert();
+    });
 
     // liタグ配下のHTML階層設定
     addTarget.appendChild(p);
     addTarget.appendChild(backButton);
-    console.log(addTarget);
 
     // 押された完了ボタンの親タグliタグを未完了リストから削除
     deleteFromIncompleteList(div.parentNode);
