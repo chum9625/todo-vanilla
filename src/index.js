@@ -37,9 +37,10 @@ const onClickAdd = () => {
     const backButton = document.createElement("button");
     backButton.innerText = "戻す";
 
-    // liタグ子要素に各要素を設定
+    // liタグ配下のHTML階層設定
     addTarget.appendChild(p);
     addTarget.appendChild(backButton);
+    console.log(addTarget);
 
     // 押された完了ボタンの親タグliタグを未完了リストから削除
     deleteFromIncompleteList(div.parentNode);
@@ -56,7 +57,7 @@ const onClickAdd = () => {
     deleteFromIncompleteList(div.parentNode);
   });
 
-  // liタグの子要素に各要素を設定
+  // liタグ配下のHTML階層設定
   li.appendChild(div);
   div.appendChild(p);
   div.appendChild(completeButton);
