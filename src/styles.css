@@ -21,6 +21,10 @@ button:hover {
   cursor: pointer;
 }
 
+li {
+  line-height: 0.3;
+}
+
 .input-area {
   background-color: #c1ffff;
   width: 400px;
