@@ -1,22 +1,24 @@
 body {
   font-family: sans-serif;
+  color: #666;
 }
 
 input {
-  border-radius: 16px;
+  border-radius: 8px;
   border: none;
   padding: 6px 16px;
   outline: none;
 }
 
 button {
-  border-radius: 16px;
+  border-radius: 8px;
   border: none;
   padding: 4px 16px;
+  margin: 0 2px;
 }
 
 button:hover {
-  background-color: #ff7fff;
+  background-color: #79a8a9;
   color: #fff;
   cursor: pointer;
 }
@@ -26,16 +28,17 @@ li {
 }
 
 .input-area {
-  background-color: #c1ffff;
+  background-color: #c6e5d9;
   width: 400px;
   height: 30px;
   padding: 8px;
   margin: 8px;
   border-radius: 8px;
+  border: 2px solid #c6e5d9;
 }
 
 .incomplete-area {
-  background-color: #c6ffe2;
+  border: 2px solid #aacfd0;
   width: 400px;
   min-height: 200px;
   padding: 8px;
@@ -44,7 +47,8 @@ li {
 }
 
 .coomplete-area {
-  background-color: #ffffe0;
+  border: 2px solid #aacfd0;
+  background-color: #c9dede;
   width: 400px;
   min-height: 200px;
   padding: 8px;
